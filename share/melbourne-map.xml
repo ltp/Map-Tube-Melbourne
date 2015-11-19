@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<tube name="Melbourne Metro">
+		<lines>
+			<line id="A" name="Alamein Line" color="#ccc" />
+			<line id="B" name="Belgrave Line" color="#ccc" />
+			<line id="C" name="Craigieburn Line" color="#ccc" />
+			<line id="D" name="Cranbourne Line" color="#ccc" />
+			<line id="E" name="Frankston Line" color="#ccc" />
+			<line id="F" name="Glen Waverley Line" color="#ccc" />
+			<line id="G" name="Hurstbridge Line" color="#ccc" />
+			<line id="H" name="Lilydale Line" color="#ccc" />
+			<line id="I" name="Pakenham Line" color="#ccc" />
+			<line id="J" name="Sandringham Line" color="#ccc" />
+			<line id="K" name="South Morang Line" color="#ccc" />
+			<line id="L" name="Stony Point Line" color="#ccc" />
+			<line id="M" name="Sunbury Line" color="#ccc" />
+			<line id="N" name="Upfield Line" color="#ccc" />
+			<line id="O" name="Werribee Line" color="#ccc" />
+			<line id="P" name="Williamstown Line" color="#ccc" />
+		</lines>
+		<stations>
+			<station id="A01" name="Parliament Station (Melbourne City)" line="A:1" link="A02" />
+			<station id="A02" name="Melbourne Central Station (Melbourne City)" line="A:2" link="A01,A03" />
+			<station id="A03" name="Flagstaff Station (Melbourne City)" line="A:3" link="A02,A04" />
+			<station id="A04" name="Southern Cross Station (Melbourne City)" line="A:4" link="A03,A05" />
+			<station id="A05" name="Flinders Street Station (Melbourne City)  ARR" line="A:5" link="A04,A06" />
+			<station id="A06" name="Flinders Street Station (Melbourne City)  DEP" line="A:6" link="A05,A07" />
+			<station id="A07" name="Southern Cross Station (Melbourne City)" line="A:7" link="A06,A08" />
+			<station id="A08" name="Flagstaff Station (Melbourne City)" line="A:8" link="A07,A09" />
+			<station id="A09" name="Melbourne Central Station (Melbourne City)" line="A:9" link="A08,A10" />
+			<station id="A10" name="Parliament Station (Melbourne City)" line="A:10" link="A09,A11" />
+			<station id="A11" name="Richmond Station (Richmond)  ARR" line="A:11" link="A10,A12" />
+			<station id="A12" name="Richmond Station (Richmond)  DEP" line="A:12" link="A11,A13" />
+			<station id="A13" name="East Richmond Station (Richmond)" line="A:13" link="A12,A14" />
+			<station id="A14" name="Burnley Station (Burnley)" line="A:14" link="A13,A15" />
+			<station id="A15" name="Hawthorn Station (Hawthorn)" line="A:15" link="A14,A16" />
+			<station id="A16" name="Glenferrie Station (Hawthorn)" line="A:16" link="A15,A17" />
+			<station id="A17" name="Auburn Station (Hawthorn East)" line="A:17" link="A16,A18" />
+			<station id="A18" name="Camberwell Station (Camberwell)" line="A:18" link="A17,A19" />
+			<station id="A19" name="Riversdale Station (Camberwell)" line="A:19" link="A18,A20" />
+			<station id="A20" name="Willison Station (Camberwell)" line="A:20" link="A19,A21" />
+			<station id="A21" name="Hartwell Station (Camberwell)" line="A:21" link="A20,A22" />
+			<station id="A22" name="Burwood Station (Glen Iris)" line="A:22" link="A21,A23" />
+			<station id="A23" name="Ashburton Station (Ashburton)" line="A:23" link="A22,A24" />
+			<station id="A24" name="Parliament Station (Melbourne City)" line="A:24" link="A23" />
+			<station id="B01" name="Parliament Station (Melbourne City)" line="B:1" link="B02" />
+			<station id="B02" name="Melbourne Central Station (Melbourne City)" line="B:2" link="B01,B03" />
+			<station id="B03" name="Flagstaff Station (Melbourne City)" line="B:3" link="B02,B04" />
+			<station id="B04" name="Southern Cross Station (Melbourne City)" line="B:4" link="B03,B05" />
+			<station id="B05" name="Flinders Street Station (Melbourne City)  ARR" line="B:5" link="B04,B06" />
+			<station id="B06" name="Flinders Street Station (Melbourne City)  DEP" line="B:6" link="B05,B07" />
+			<station id="B07" name="Southern Cross Station (Melbourne City)" line="B:7" link="B06,B08" />
+			<station id="B08" name="Flagstaff Station (Melbourne City)" line="B:8" link="B07,B09" />
+			<station id="B09" name="Melbourne Central Station (Melbourne City)" line="B:9" link="B08,B10" />
+			<station id="B10" name="Parliament Station (Melbourne City)" line="B:10" link="B09,B11" />
+			<station id="B11" name="Richmond Station (Richmond)  ARR" line="B:11" link="B10,B12" />
+			<station id="B12" name="Richmond Station (Richmond)  DEP" line="B:12" link="B11,B13" />
+			<station id="B13" name="East Richmond Station (Richmond)" line="B:13" link="B12,B14" />
+			<station id="B14" name="Burnley Station (Burnley)" line="B:14" link="B13,B15" />
+			<station id="B15" name="Hawthorn Station (Hawthorn)" line="B:15" link="B14,B16" />
+			<station id="B16" name="Glenferrie Station (Hawthorn)" line="B:16" link="B15,B17" />
+			<station id="B17" name="Auburn Station (Hawthorn East)" line="B:17" link="B16,B18" />
+			<station id="B18" name="Camberwell Station (Camberwell)" line="B:18" link="B17,B19" />
+			<station id="B19" name="East Camberwell Station (Camberwell)" line="B:19" link="B18,B20" />
+			<station id="B20" name="Canterbury Station (Canterbury)" line="B:20" link="B19,B21" />
+			<station id="B21" name="Chatham Station (Surrey Hills)" line="B:21" link="B20,B22" />
+			<station id="B22" name="Surrey Hills Station (Surrey Hills)" line="B:22" link="B21,B23" />
+			<station id="B23" name="Mont Albert Station (Mont Albert)" line="B:23" link="B22,B24" />
+			<station id="B24" name="Box Hill Station (Box Hill)" line="B:24" link="B23,B25" />
+			<station id="B25" name="Laburnum Station (Blackburn)" line="B:25" link="B24,B26" />
+			<station id="B26" name="Blackburn Station (Blackburn)" line="B:26" link="B25,B27" />
+			<station id="B27" name="Nunawading Station (Nunawading)" line="B:27" link="B26,B28" />
+			<station id="B28" name="Mitcham Station (Mitcham)" line="B:28" link="B27,B29" />
+			<station id="B29" name="Heatherdale Station (Mitcham)" line="B:29" link="B28,B30" />
+			<station id="B30" name="Ringwood Station (Ringwood)" line="B:30" link="B29,B31" />
+			<station id="B31" name="Heathmont Station (Heathmont)" line="B:31" link="B30,B32" />
+			<station id="B32" name="Bayswater Station (Bayswater)" line="B:32" link="B31,B33" />
+			<station id="B33" name="Boronia Station (Boronia)" line="B:33" link="B32,B34" />
+			<station id="B34" name="Ferntree Gully Station (Ferntree Gully)  ARR" line="B:34" link="B33,B35" />
+			<station id="B35" name="Ferntree Gully Station (Ferntree Gully)  DEP" line="B:35" link="B34,B36" />
+			<station id="B36" name="Upper Ferntree Gully Station (Upper Ferntree Gully)  ARR" line="B:36" link="B35,B37" />
+			<station id="B37" name="Upper Ferntree Gully Station (Upper Ferntree Gully)  DEP" line="B:37" link="B36,B38" />
+			<station id="B38" name="Upwey Station (Upwey)  ARR" line="B:38" link="B37,B39" />
+			<station id="B39" name="Upwey Station (Upwey)  DEP" line="B:39" link="B38,B40" />
+			<station id="B40" name="Tecoma Station (Tecoma)" line="B:40" link="B39,B41" />
+			<station id="B41" name="Parliament Station (Melbourne City)" line="B:41" link="B40" />
+			<station id="C01" name="Southern Cross Station (Melbourne City)" line="C:1" link="C02" />
+			<station id="C02" name="Flagstaff Station (Melbourne City)" line="C:2" link="C01,C03" />
+			<station id="C03" name="Melbourne Central Station (Melbourne City)" line="C:3" link="C02,C04" />
+			<station id="C04" name="Parliament Station (Melbourne City)" line="C:4" link="C03,C05" />
+			<station id="C05" name="Flinders Street Station (Melbourne City)  ARR" line="C:5" link="C04,C06" />
+			<station id="C06" name="Flinders Street Station (Melbourne City)  DEP" line="C:6" link="C05,C07" />
+			<station id="C07" name="Southern Cross Station (Melbourne City)" line="C:7" link="C06,C08" />
+			<station id="C08" name="Parliament Station (Melbourne City)" line="C:8" link="C07,C09" />
+			<station id="C09" name="Melbourne Central Station (Melbourne City)" line="C:9" link="C08,C10" />
+			<station id="C10" name="Flagstaff Station (Melbourne City)" line="C:10" link="C09,C11" />
+			<station id="C11" name="North Melbourne Station (West Melbourne)" line="C:11" link="C10,C12" />
+			<station id="C12" name="Kensington Station (Kensington)" line="C:12" link="C11,C13" />
+			<station id="C13" name="Newmarket Station (Flemington)" line="C:13" link="C12,C14" />
+			<station id="C14" name="Ascot Vale Station (Ascot Vale)" line="C:14" link="C13,C15" />
+			<station id="C15" name="Moonee Ponds Station (Moonee Ponds)" line="C:15" link="C14,C16" />
+			<station id="C16" name="Essendon Station (Essendon)" line="C:16" link="C15,C17" />
+			<station id="C17" name="Glenbervie Station (Essendon)" line="C:17" link="C16,C18" />
+			<station id="C18" name="Strathmore Station (Essendon)" line="C:18" link="C17,C19" />
+			<station id="C19" name="Pascoe Vale Station (Pascoe Vale)" line="C:19" link="C18,C20" />
+			<station id="C20" name="Oak Park Station (Oak Park)" line="C:20" link="C19,C21" />
+			<station id="C21" name="Glenroy Station (Glenroy)" line="C:21" link="C20,C22" />
+			<station id="C22" name="Jacana Station (Glenroy)" line="C:22" link="C21,C23" />
+			<station id="C23" name="Broadmeadows Station (Broadmeadows)" line="C:23" link="C22,C24" />
+			<station id="C24" name="Coolaroo Station (Coolaroo)" line="C:24" link="C23,C25" />
+			<station id="C25" name="Roxburgh Park Station (Roxburgh Park)" line="C:25" link="C24,C26" />
+			<station id="C26" name="Southern Cross Station (Melbourne City)" line="C:26" link="C25" />
+			<station id="D01" name="Parliament Station (Melbourne City)" line="D:1" link="D02" />
+			<station id="D02" name="Melbourne Central Station (Melbourne City)" line="D:2" link="D01,D03" />
+			<station id="D03" name="Flagstaff Station (Melbourne City)" line="D:3" link="D02,D04" />
+			<station id="D04" name="Southern Cross Station (Melbourne City)" line="D:4" link="D03,D05" />
+			<station id="D05" name="Flinders Street Station (Melbourne City)  ARR" line="D:5" link="D04,D06" />
+			<station id="D06" name="Flinders Street Station (Melbourne City)  DEP" line="D:6" link="D05,D07" />
+			<station id="D07" name="Southern Cross Station (Melbourne City)" line="D:7" link="D06,D08" />
+			<station id="D08" name="Flagstaff Station (Melbourne City)" line="D:8" link="D07,D09" />
+			<station id="D09" name="Melbourne Central Station (Melbourne City)" line="D:9" link="D08,D10" />
+			<station id="D10" name="Parliament Station (Melbourne City)" line="D:10" link="D09,D11" />
+			<station id="D11" name="Richmond Station (Richmond)  ARR" line="D:11" link="D10,D12" />
+			<station id="D12" name="Richmond Station (Richmond)  DEP" line="D:12" link="D11,D13" />
+			<station id="D13" name="South Yarra Station (South Yarra)" line="D:13" link="D12,D14" />
+			<station id="D14" name="Hawksburn Station (South Yarra)" line="D:14" link="D13,D15" />
+			<station id="D15" name="Toorak Station (Armadale)" line="D:15" link="D14,D16" />
+			<station id="D16" name="Armadale Station (Armadale)" line="D:16" link="D15,D17" />
+			<station id="D17" name="Malvern Station (Malvern)" line="D:17" link="D16,D18" />
+			<station id="D18" name="Caulfield Station (Caulfield East)" line="D:18" link="D17,D19" />
+			<station id="D19" name="Carnegie Station (Carnegie)" line="D:19" link="D18,D20" />
+			<station id="D20" name="Murrumbeena Station (Murrumbeena)" line="D:20" link="D19,D21" />
+			<station id="D21" name="Hughesdale Station (Hughesdale)" line="D:21" link="D20,D22" />
+			<station id="D22" name="Oakleigh Station (Oakleigh)" line="D:22" link="D21,D23" />
+			<station id="D23" name="Huntingdale Station (Oakleigh)" line="D:23" link="D22,D24" />
+			<station id="D24" name="Clayton Station (Clayton)" line="D:24" link="D23,D25" />
+			<station id="D25" name="Westall Station (Clayton South)" line="D:25" link="D24,D26" />
+			<station id="D26" name="Springvale Station (Springvale)" line="D:26" link="D25,D27" />
+			<station id="D27" name="Sandown Park Station (Springvale)" line="D:27" link="D26,D28" />
+			<station id="D28" name="Noble Park Station (Noble Park)" line="D:28" link="D27,D29" />
+			<station id="D29" name="Yarraman Station (Noble Park)" line="D:29" link="D28,D30" />
+			<station id="D30" name="Dandenong Station (Dandenong)  ARR" line="D:30" link="D29,D31" />
+			<station id="D31" name="Dandenong Station (Dandenong)  DEP" line="D:31" link="D30,D32" />
+			<station id="D32" name="Lynbrook Station (Lynbrook)" line="D:32" link="D31,D33" />
+			<station id="D33" name="Merinda Park Station (Cranbourne North)" line="D:33" link="D32,D34" />
+			<station id="D34" name="Parliament Station (Melbourne City)" line="D:34" link="D33" />
+			<station id="E01" name="Parliament Station (Melbourne City)" line="E:1" link="E02" />
+			<station id="E02" name="Melbourne Central Station (Melbourne City)" line="E:2" link="E01,E03" />
+			<station id="E03" name="Flagstaff Station (Melbourne City)" line="E:3" link="E02,E04" />
+			<station id="E04" name="Southern Cross Station (Melbourne City)" line="E:4" link="E03,E05" />
+			<station id="E05" name="Flinders Street Station (Melbourne City)  ARR" line="E:5" link="E04,E06" />
+			<station id="E06" name="Flinders Street Station (Melbourne City)  DEP" line="E:6" link="E05,E07" />
+			<station id="E07" name="Southern Cross Station (Melbourne City)" line="E:7" link="E06,E08" />
+			<station id="E08" name="Flagstaff Station (Melbourne City)" line="E:8" link="E07,E09" />
+			<station id="E09" name="Melbourne Central Station (Melbourne City)" line="E:9" link="E08,E10" />
+			<station id="E10" name="Parliament Station (Melbourne City)" line="E:10" link="E09,E11" />
+			<station id="E11" name="Richmond Station (Richmond)  ARR" line="E:11" link="E10,E12" />
+			<station id="E12" name="Richmond Station (Richmond)  DEP" line="E:12" link="E11,E13" />
+			<station id="E13" name="South Yarra Station (South Yarra)" line="E:13" link="E12,E14" />
+			<station id="E14" name="Hawksburn Station (South Yarra)" line="E:14" link="E13,E15" />
+			<station id="E15" name="Toorak Station (Armadale)" line="E:15" link="E14,E16" />
+			<station id="E16" name="Armadale Station (Armadale)" line="E:16" link="E15,E17" />
+			<station id="E17" name="Malvern Station (Malvern)" line="E:17" link="E16,E18" />
+			<station id="E18" name="Caulfield Station (Caulfield East)" line="E:18" link="E17,E19" />
+			<station id="E19" name="Glenhuntly Station (Glen Huntly)" line="E:19" link="E18,E20" />
+			<station id="E20" name="Ormond Station (Ormond)" line="E:20" link="E19,E21" />
+			<station id="E21" name="McKinnon Station (Mckinnon)" line="E:21" link="E20,E22" />
+			<station id="E22" name="Bentleigh Station (Bentleigh)" line="E:22" link="E21,E23" />
+			<station id="E23" name="Patterson Station (Bentleigh)" line="E:23" link="E22,E24" />
+			<station id="E24" name="Moorabbin Station (Moorabbin)" line="E:24" link="E23,E25" />
+			<station id="E25" name="Highett Station (Highett)" line="E:25" link="E24,E26" />
+			<station id="E26" name="Cheltenham Station (Cheltenham)" line="E:26" link="E25,E27" />
+			<station id="E27" name="Mentone Station (Mentone)" line="E:27" link="E26,E28" />
+			<station id="E28" name="Parkdale Station (Parkdale)" line="E:28" link="E27,E29" />
+			<station id="E29" name="Mordialloc Station (Mordialloc)" line="E:29" link="E28,E30" />
+			<station id="E30" name="Aspendale Station (Aspendale)" line="E:30" link="E29,E31" />
+			<station id="E31" name="Edithvale Station (Edithvale)" line="E:31" link="E30,E32" />
+			<station id="E32" name="Chelsea Station (Chelsea)" line="E:32" link="E31,E33" />
+			<station id="E33" name="Bonbeach Station (Bonbeach)" line="E:33" link="E32,E34" />
+			<station id="E34" name="Carrum Station (Carrum)" line="E:34" link="E33,E35" />
+			<station id="E35" name="Seaford Station (Seaford)" line="E:35" link="E34,E36" />
+			<station id="E36" name="Kananook Station (Seaford)" line="E:36" link="E35,E37" />
+			<station id="E37" name="Parliament Station (Melbourne City)" line="E:37" link="E36" />
+			<station id="F01" name="Parliament Station (Melbourne City)" line="F:1" link="F02" />
+			<station id="F02" name="Melbourne Central Station (Melbourne City)" line="F:2" link="F01,F03" />
+			<station id="F03" name="Flagstaff Station (Melbourne City)" line="F:3" link="F02,F04" />
+			<station id="F04" name="Southern Cross Station (Melbourne City)" line="F:4" link="F03,F05" />
+			<station id="F05" name="Flinders Street Station (Melbourne City)  ARR" line="F:5" link="F04,F06" />
+			<station id="F06" name="Flinders Street Station (Melbourne City)  DEP" line="F:6" link="F05,F07" />
+			<station id="F07" name="Southern Cross Station (Melbourne City)" line="F:7" link="F06,F08" />
+			<station id="F08" name="Flagstaff Station (Melbourne City)" line="F:8" link="F07,F09" />
+			<station id="F09" name="Melbourne Central Station (Melbourne City)" line="F:9" link="F08,F10" />
+			<station id="F10" name="Parliament Station (Melbourne City)" line="F:10" link="F09,F11" />
+			<station id="F11" name="Richmond Station (Richmond)" line="F:11" link="F10,F12" />
+			<station id="F12" name="East Richmond Station (Richmond)" line="F:12" link="F11,F13" />
+			<station id="F13" name="Burnley Station (Burnley)" line="F:13" link="F12,F14" />
+			<station id="F14" name="Heyington Station (Toorak)  ARR" line="F:14" link="F13,F15" />
+			<station id="F15" name="Heyington Station (Toorak)  DEP" line="F:15" link="F14,F16" />
+			<station id="F16" name="Kooyong Station (Kooyong)" line="F:16" link="F15,F17" />
+			<station id="F17" name="Tooronga Station (Malvern)" line="F:17" link="F16,F18" />
+			<station id="F18" name="Gardiner Station (Glen Iris)" line="F:18" link="F17,F19" />
+			<station id="F19" name="Glen Iris Station (Glen Iris)" line="F:19" link="F18,F20" />
+			<station id="F20" name="Darling Station (Malvern East)" line="F:20" link="F19,F21" />
+			<station id="F21" name="East Malvern Station (Malvern East)" line="F:21" link="F20,F22" />
+			<station id="F22" name="Holmesglen Station (Malvern East)" line="F:22" link="F21,F23" />
+			<station id="F23" name="Jordanville Station (Mount Waverley)" line="F:23" link="F22,F24" />
+			<station id="F24" name="Mount Waverley Station (Mount Waverley)" line="F:24" link="F23,F25" />
+			<station id="F25" name="Syndal Station (Glen Waverley)" line="F:25" link="F24,F26" />
+			<station id="F26" name="Parliament Station (Melbourne City)" line="F:26" link="F25" />
+			<station id="G01" name="Flinders Street Station (Melbourne City)" line="G:1" link="G02" />
+			<station id="G02" name="Southern Cross Station (Melbourne City)" line="G:2" link="G01,G03" />
+			<station id="G03" name="Flagstaff Station (Melbourne City)" line="G:3" link="G02,G04" />
+			<station id="G04" name="Melbourne Central Station (Melbourne City)" line="G:4" link="G03,G05" />
+			<station id="G05" name="Parliament Station (Melbourne City)" line="G:5" link="G04,G06" />
+			<station id="G06" name="Jolimont-MCG Station (East Melbourne)" line="G:6" link="G05,G07" />
+			<station id="G07" name="West Richmond Station (Richmond)" line="G:7" link="G06,G08" />
+			<station id="G08" name="North Richmond Station (Richmond)" line="G:8" link="G07,G09" />
+			<station id="G09" name="Collingwood Station (Abbotsford)" line="G:9" link="G08,G10" />
+			<station id="G10" name="Victoria Park Station (Abbotsford)" line="G:10" link="G09,G11" />
+			<station id="G11" name="Clifton Hill Station (Clifton Hill)" line="G:11" link="G10,G12" />
+			<station id="G12" name="Westgarth Station (Northcote)" line="G:12" link="G11,G13" />
+			<station id="G13" name="Dennis Station (Northcote)" line="G:13" link="G12,G14" />
+			<station id="G14" name="Fairfield Station (Fairfield)" line="G:14" link="G13,G15" />
+			<station id="G15" name="Alphington Station (Alphington)" line="G:15" link="G14,G16" />
+			<station id="G16" name="Darebin Station (Ivanhoe)" line="G:16" link="G15,G17" />
+			<station id="G17" name="Ivanhoe Station (Ivanhoe)" line="G:17" link="G16,G18" />
+			<station id="G18" name="Eaglemont Station (Eaglemont)" line="G:18" link="G17,G19" />
+			<station id="G19" name="Heidelberg Station (Heidelberg)  ARR" line="G:19" link="G18,G20" />
+			<station id="G20" name="Heidelberg Station (Heidelberg)  DEP" line="G:20" link="G19,G21" />
+			<station id="G21" name="Rosanna Station (Rosanna)" line="G:21" link="G20,G22" />
+			<station id="G22" name="Macleod Station (Macleod)" line="G:22" link="G21,G23" />
+			<station id="G23" name="Watsonia Station (Watsonia)" line="G:23" link="G22,G24" />
+			<station id="G24" name="Greensborough Station (Greensborough)  ARR" line="G:24" link="G23,G25" />
+			<station id="G25" name="Greensborough Station (Greensborough)  DEP" line="G:25" link="G24,G26" />
+			<station id="G26" name="Montmorency Station (Montmorency)" line="G:26" link="G25,G27" />
+			<station id="G27" name="Eltham Station (Eltham)  ARR" line="G:27" link="G26,G28" />
+			<station id="G28" name="Eltham Station (Eltham)  DEP" line="G:28" link="G27,G29" />
+			<station id="G29" name="Diamond Creek Station (Diamond Creek)  ARR" line="G:29" link="G28,G30" />
+			<station id="G30" name="Diamond Creek Station (Diamond Creek)  DEP" line="G:30" link="G29,G31" />
+			<station id="G31" name="Wattle Glen Station (Wattle Glen)" line="G:31" link="G30,G32" />
+			<station id="G32" name="Flinders Street Station (Melbourne City)" line="G:32" link="G31" />
+			<station id="H01" name="Lilydale Station (Lilydale)" line="H:1" link="H02" />
+			<station id="H02" name="Mooroolbark Station (Mooroolbark)" line="H:2" link="H01,H03" />
+			<station id="H03" name="Croydon Station (Croydon)" line="H:3" link="H02,H04" />
+			<station id="H04" name="Ringwood East Station (Ringwood East)" line="H:4" link="H03,H05" />
+			<station id="H05" name="Ringwood Station (Ringwood)" line="H:5" link="H04,H06" />
+			<station id="H06" name="Heatherdale Station (Mitcham)" line="H:6" link="H05,H07" />
+			<station id="H07" name="Mitcham Station (Mitcham)" line="H:7" link="H06,H08" />
+			<station id="H08" name="Nunawading Station (Nunawading)" line="H:8" link="H07,H09" />
+			<station id="H09" name="Blackburn Station (Blackburn)" line="H:9" link="H08,H10" />
+			<station id="H10" name="Laburnum Station (Blackburn)" line="H:10" link="H09,H11" />
+			<station id="H11" name="Box Hill Station (Box Hill)" line="H:11" link="H10,H12" />
+			<station id="H12" name="Mont Albert Station (Mont Albert)" line="H:12" link="H11,H13" />
+			<station id="H13" name="Surrey Hills Station (Surrey Hills)" line="H:13" link="H12,H14" />
+			<station id="H14" name="Chatham Station (Surrey Hills)" line="H:14" link="H13,H15" />
+			<station id="H15" name="Canterbury Station (Canterbury)" line="H:15" link="H14,H16" />
+			<station id="H16" name="East Camberwell Station (Camberwell)" line="H:16" link="H15,H17" />
+			<station id="H17" name="Camberwell Station (Camberwell)" line="H:17" link="H16,H18" />
+			<station id="H18" name="Auburn Station (Hawthorn East)" line="H:18" link="H17,H19" />
+			<station id="H19" name="Glenferrie Station (Hawthorn)" line="H:19" link="H18,H20" />
+			<station id="H20" name="Hawthorn Station (Hawthorn)" line="H:20" link="H19,H21" />
+			<station id="H21" name="Burnley Station (Burnley)" line="H:21" link="H20,H22" />
+			<station id="H22" name="East Richmond Station (Richmond)" line="H:22" link="H21,H23" />
+			<station id="H23" name="Richmond Station (Richmond)" line="H:23" link="H22,H24" />
+			<station id="H24" name="Parliament Station (Melbourne City)" line="H:24" link="H23,H25" />
+			<station id="H25" name="Melbourne Central Station (Melbourne City)" line="H:25" link="H24,H26" />
+			<station id="H26" name="Flagstaff Station (Melbourne City)" line="H:26" link="H25,H27" />
+			<station id="H27" name="Southern Cross Station (Melbourne City)" line="H:27" link="H26,H28" />
+			<station id="H28" name="Flinders Street Station (Melbourne City)  ARR" line="H:28" link="H27,H29" />
+			<station id="H29" name="Flinders Street Station (Melbourne City)  DEP" line="H:29" link="H28,H30" />
+			<station id="H30" name="Southern Cross Station (Melbourne City)" line="H:30" link="H29,H31" />
+			<station id="H31" name="Flagstaff Station (Melbourne City)" line="H:31" link="H30,H32" />
+			<station id="H32" name="Melbourne Central Station (Melbourne City)" line="H:32" link="H31,H33" />
+			<station id="H33" name="Lilydale Station (Lilydale)" line="H:33" link="H32" />
+			<station id="I01" name="Parliament Station (Melbourne City)" line="I:1" link="I02" />
+			<station id="I02" name="Melbourne Central Station (Melbourne City)" line="I:2" link="I01,I03" />
+			<station id="I03" name="Flagstaff Station (Melbourne City)" line="I:3" link="I02,I04" />
+			<station id="I04" name="Southern Cross Station (Melbourne City)" line="I:4" link="I03,I05" />
+			<station id="I05" name="Flinders Street Station (Melbourne City)  ARR" line="I:5" link="I04,I06" />
+			<station id="I06" name="Flinders Street Station (Melbourne City)  DEP" line="I:6" link="I05,I07" />
+			<station id="I07" name="Southern Cross Station (Melbourne City)" line="I:7" link="I06,I08" />
+			<station id="I08" name="Flagstaff Station (Melbourne City)" line="I:8" link="I07,I09" />
+			<station id="I09" name="Melbourne Central Station (Melbourne City)" line="I:9" link="I08,I10" />
+			<station id="I10" name="Parliament Station (Melbourne City)" line="I:10" link="I09,I11" />
+			<station id="I11" name="Richmond Station (Richmond)  ARR" line="I:11" link="I10,I12" />
+			<station id="I12" name="Richmond Station (Richmond)  DEP" line="I:12" link="I11,I13" />
+			<station id="I13" name="South Yarra Station (South Yarra)" line="I:13" link="I12,I14" />
+			<station id="I14" name="Hawksburn Station (South Yarra)" line="I:14" link="I13,I15" />
+			<station id="I15" name="Toorak Station (Armadale)" line="I:15" link="I14,I16" />
+			<station id="I16" name="Armadale Station (Armadale)" line="I:16" link="I15,I17" />
+			<station id="I17" name="Malvern Station (Malvern)" line="I:17" link="I16,I18" />
+			<station id="I18" name="Caulfield Station (Caulfield East)" line="I:18" link="I17,I19" />
+			<station id="I19" name="Carnegie Station (Carnegie)" line="I:19" link="I18,I20" />
+			<station id="I20" name="Murrumbeena Station (Murrumbeena)" line="I:20" link="I19,I21" />
+			<station id="I21" name="Hughesdale Station (Hughesdale)" line="I:21" link="I20,I22" />
+			<station id="I22" name="Oakleigh Station (Oakleigh)" line="I:22" link="I21,I23" />
+			<station id="I23" name="Huntingdale Station (Oakleigh)" line="I:23" link="I22,I24" />
+			<station id="I24" name="Clayton Station (Clayton)" line="I:24" link="I23,I25" />
+			<station id="I25" name="Westall Station (Clayton South)" line="I:25" link="I24,I26" />
+			<station id="I26" name="Springvale Station (Springvale)" line="I:26" link="I25,I27" />
+			<station id="I27" name="Sandown Park Station (Springvale)" line="I:27" link="I26,I28" />
+			<station id="I28" name="Noble Park Station (Noble Park)" line="I:28" link="I27,I29" />
+			<station id="I29" name="Yarraman Station (Noble Park)" line="I:29" link="I28,I30" />
+			<station id="I30" name="Dandenong Station (Dandenong)" line="I:30" link="I29,I31" />
+			<station id="I31" name="Hallam Station (Hallam)" line="I:31" link="I30,I32" />
+			<station id="I32" name="Narre Warren Station (Narre Warren)" line="I:32" link="I31,I33" />
+			<station id="I33" name="Berwick Station (Berwick)" line="I:33" link="I32,I34" />
+			<station id="I34" name="Beaconsfield Station (Beaconsfield)" line="I:34" link="I33,I35" />
+			<station id="I35" name="Officer Station (Officer)" line="I:35" link="I34,I36" />
+			<station id="I36" name="Cardinia Road Station (Pakenham)" line="I:36" link="I35,I37" />
+			<station id="I37" name="Parliament Station (Melbourne City)" line="I:37" link="I36" />
+			<station id="J01" name="Flinders Street Station (Melbourne City)" line="J:1" link="J02" />
+			<station id="J02" name="Richmond Station (Richmond)  ARR" line="J:2" link="J01,J03" />
+			<station id="J03" name="Richmond Station (Richmond)  DEP" line="J:3" link="J02,J04" />
+			<station id="J04" name="South Yarra Station (South Yarra)" line="J:4" link="J03,J05" />
+			<station id="J05" name="Prahran Station (Prahran)" line="J:5" link="J04,J06" />
+			<station id="J06" name="Windsor Station (Windsor)" line="J:6" link="J05,J07" />
+			<station id="J07" name="Balaclava Station (Balaclava)" line="J:7" link="J06,J08" />
+			<station id="J08" name="Ripponlea Station (Ripponlea)" line="J:8" link="J07,J09" />
+			<station id="J09" name="Elsternwick Station (Elsternwick)" line="J:9" link="J08,J10" />
+			<station id="J10" name="Gardenvale Station (Brighton)" line="J:10" link="J09,J11" />
+			<station id="J11" name="North Brighton Station (Brighton)" line="J:11" link="J10,J12" />
+			<station id="J12" name="Middle Brighton Station (Brighton)" line="J:12" link="J11,J13" />
+			<station id="J13" name="Brighton Beach Station (Brighton)" line="J:13" link="J12,J14" />
+			<station id="J14" name="Hampton Station (Hampton)" line="J:14" link="J13,J15" />
+			<station id="J15" name="Flinders Street Station (Melbourne City)" line="J:15" link="J14" />
+			<station id="K01" name="Flinders Street Station (Melbourne City)" line="K:1" link="K02" />
+			<station id="K02" name="Southern Cross Station (Melbourne City)" line="K:2" link="K01,K03" />
+			<station id="K03" name="Flagstaff Station (Melbourne City)" line="K:3" link="K02,K04" />
+			<station id="K04" name="Melbourne Central Station (Melbourne City)" line="K:4" link="K03,K05" />
+			<station id="K05" name="Parliament Station (Melbourne City)" line="K:5" link="K04,K06" />
+			<station id="K06" name="Jolimont-MCG Station (East Melbourne)" line="K:6" link="K05,K07" />
+			<station id="K07" name="West Richmond Station (Richmond)" line="K:7" link="K06,K08" />
+			<station id="K08" name="North Richmond Station (Richmond)" line="K:8" link="K07,K09" />
+			<station id="K09" name="Collingwood Station (Abbotsford)" line="K:9" link="K08,K10" />
+			<station id="K10" name="Victoria Park Station (Abbotsford)" line="K:10" link="K09,K11" />
+			<station id="K11" name="Clifton Hill Station (Clifton Hill)" line="K:11" link="K10,K12" />
+			<station id="K12" name="Rushall Station (Fitzroy North)" line="K:12" link="K11,K13" />
+			<station id="K13" name="Merri Station (Northcote)" line="K:13" link="K12,K14" />
+			<station id="K14" name="Northcote Station (Northcote)" line="K:14" link="K13,K15" />
+			<station id="K15" name="Croxton Station (Northcote)" line="K:15" link="K14,K16" />
+			<station id="K16" name="Thornbury Station (Thornbury)" line="K:16" link="K15,K17" />
+			<station id="K17" name="Bell Station (Preston)" line="K:17" link="K16,K18" />
+			<station id="K18" name="Preston Station (Preston)" line="K:18" link="K17,K19" />
+			<station id="K19" name="Regent Station (Reservoir)" line="K:19" link="K18,K20" />
+			<station id="K20" name="Reservoir Station (Reservoir)" line="K:20" link="K19,K21" />
+			<station id="K21" name="Ruthven Station (Reservoir)" line="K:21" link="K20,K22" />
+			<station id="K22" name="Keon Park Station (Thomastown)" line="K:22" link="K21,K23" />
+			<station id="K23" name="Thomastown Station (Thomastown)" line="K:23" link="K22,K24" />
+			<station id="K24" name="Lalor Station (Lalor)" line="K:24" link="K23,K25" />
+			<station id="K25" name="Epping Station (Epping)" line="K:25" link="K24,K26" />
+			<station id="K26" name="Flinders Street Station (Melbourne City)" line="K:26" link="K25" />
+			<station id="L01" name="Frankston Station (Frankston)" line="L:1" link="L02" />
+			<station id="L02" name="Leawarra Station (Frankston)" line="L:2" link="L01,L03" />
+			<station id="L03" name="Baxter Station (Baxter)" line="L:3" link="L02,L04" />
+			<station id="L04" name="Somerville Station (Somerville)" line="L:4" link="L03,L05" />
+			<station id="L05" name="Tyabb Station (Tyabb)" line="L:5" link="L04,L06" />
+			<station id="L06" name="Hastings Station (Hastings)" line="L:6" link="L05,L07" />
+			<station id="L07" name="Bittern Station (Bittern)" line="L:7" link="L06,L08" />
+			<station id="L08" name="Morradoo Station (Crib Point)" line="L:8" link="L07,L09" />
+			<station id="L09" name="Crib Point Station (Crib Point)" line="L:9" link="L08,L10" />
+			<station id="L10" name="Frankston Station (Frankston)" line="L:10" link="L09" />
+			<station id="M01" name="Southern Cross Station (Melbourne City)" line="M:1" link="M02" />
+			<station id="M02" name="Flagstaff Station (Melbourne City)" line="M:2" link="M01,M03" />
+			<station id="M03" name="Melbourne Central Station (Melbourne City)" line="M:3" link="M02,M04" />
+			<station id="M04" name="Parliament Station (Melbourne City)" line="M:4" link="M03,M05" />
+			<station id="M05" name="Flinders Street Station (Melbourne City)  ARR" line="M:5" link="M04,M06" />
+			<station id="M06" name="Flinders Street Station (Melbourne City)  DEP" line="M:6" link="M05,M07" />
+			<station id="M07" name="Southern Cross Station (Melbourne City)" line="M:7" link="M06,M08" />
+			<station id="M08" name="Parliament Station (Melbourne City)" line="M:8" link="M07,M09" />
+			<station id="M09" name="Melbourne Central Station (Melbourne City)" line="M:9" link="M08,M10" />
+			<station id="M10" name="Flagstaff Station (Melbourne City)" line="M:10" link="M09,M11" />
+			<station id="M11" name="North Melbourne Station (West Melbourne)" line="M:11" link="M10,M12" />
+			<station id="M12" name="Footscray Station (Footscray)" line="M:12" link="M11,M13" />
+			<station id="M13" name="Middle Footscray Station (Footscray)" line="M:13" link="M12,M14" />
+			<station id="M14" name="West Footscray Station (West Footscray)" line="M:14" link="M13,M15" />
+			<station id="M15" name="Tottenham Station (West Footscray)" line="M:15" link="M14,M16" />
+			<station id="M16" name="Sunshine Station (Sunshine)" line="M:16" link="M15,M17" />
+			<station id="M17" name="Albion Station (Sunshine North)" line="M:17" link="M16,M18" />
+			<station id="M18" name="Ginifer Station (St Albans)" line="M:18" link="M17,M19" />
+			<station id="M19" name="St Albans Station (St Albans)" line="M:19" link="M18,M20" />
+			<station id="M20" name="Keilor Plains Station (St Albans)" line="M:20" link="M19,M21" />
+			<station id="M21" name="Watergardens Station (Sydenham)" line="M:21" link="M20,M22" />
+			<station id="M22" name="Diggers Rest Station (Diggers Rest)" line="M:22" link="M21,M23" />
+			<station id="M23" name="Southern Cross Station (Melbourne City)" line="M:23" link="M22" />
+			<station id="N01" name="Southern Cross Station (Melbourne City)" line="N:1" link="N02" />
+			<station id="N02" name="Flagstaff Station (Melbourne City)" line="N:2" link="N01,N03" />
+			<station id="N03" name="Melbourne Central Station (Melbourne City)" line="N:3" link="N02,N04" />
+			<station id="N04" name="Parliament Station (Melbourne City)" line="N:4" link="N03,N05" />
+			<station id="N05" name="Flinders Street Station (Melbourne City)  ARR" line="N:5" link="N04,N06" />
+			<station id="N06" name="Flinders Street Station (Melbourne City)  DEP" line="N:6" link="N05,N07" />
+			<station id="N07" name="Southern Cross Station (Melbourne City)" line="N:7" link="N06,N08" />
+			<station id="N08" name="Parliament Station (Melbourne City)" line="N:8" link="N07,N09" />
+			<station id="N09" name="Melbourne Central Station (Melbourne City)" line="N:9" link="N08,N10" />
+			<station id="N10" name="Flagstaff Station (Melbourne City)" line="N:10" link="N09,N11" />
+			<station id="N11" name="North Melbourne Station (West Melbourne)" line="N:11" link="N10,N12" />
+			<station id="N12" name="Macaulay Station (North Melbourne)" line="N:12" link="N11,N13" />
+			<station id="N13" name="Flemington Bridge Station (North Melbourne)" line="N:13" link="N12,N14" />
+			<station id="N14" name="Royal Park Station (Parkville)" line="N:14" link="N13,N15" />
+			<station id="N15" name="Jewell Station (Brunswick)" line="N:15" link="N14,N16" />
+			<station id="N16" name="Brunswick Station (Brunswick)" line="N:16" link="N15,N17" />
+			<station id="N17" name="Anstey Station (Brunswick)" line="N:17" link="N16,N18" />
+			<station id="N18" name="Moreland Station (Coburg)" line="N:18" link="N17,N19" />
+			<station id="N19" name="Coburg Station (Coburg)" line="N:19" link="N18,N20" />
+			<station id="N20" name="Batman Station (Coburg North)" line="N:20" link="N19,N21" />
+			<station id="N21" name="Merlynston Station (Coburg North)" line="N:21" link="N20,N22" />
+			<station id="N22" name="Fawkner Station (Fawkner)" line="N:22" link="N21,N23" />
+			<station id="N23" name="Gowrie Station (Glenroy)  ARR" line="N:23" link="N22,N24" />
+			<station id="N24" name="Gowrie Station (Glenroy)  DEP" line="N:24" link="N23,N25" />
+			<station id="N25" name="Southern Cross Station (Melbourne City)" line="N:25" link="N24" />
+			<station id="O01" name="Southern Cross Station (Melbourne City)" line="O:1" link="O02" />
+			<station id="O02" name="Flagstaff Station (Melbourne City)" line="O:2" link="O01,O03" />
+			<station id="O03" name="Melbourne Central Station (Melbourne City)" line="O:3" link="O02,O04" />
+			<station id="O04" name="Parliament Station (Melbourne City)" line="O:4" link="O03,O05" />
+			<station id="O05" name="Flinders Street Station (Melbourne City)  ARR" line="O:5" link="O04,O06" />
+			<station id="O06" name="Flinders Street Station (Melbourne City)  DEP" line="O:6" link="O05,O07" />
+			<station id="O07" name="Southern Cross Station (Melbourne City)" line="O:7" link="O06,O08" />
+			<station id="O08" name="Parliament Station (Melbourne City)" line="O:8" link="O07,O09" />
+			<station id="O09" name="Melbourne Central Station (Melbourne City)" line="O:9" link="O08,O10" />
+			<station id="O10" name="Flagstaff Station (Melbourne City)" line="O:10" link="O09,O11" />
+			<station id="O11" name="North Melbourne Station (West Melbourne)" line="O:11" link="O10,O12" />
+			<station id="O12" name="South Kensington Station (Kensington)" line="O:12" link="O11,O13" />
+			<station id="O13" name="Footscray Station (Footscray)" line="O:13" link="O12,O14" />
+			<station id="O14" name="Seddon Station (Seddon)" line="O:14" link="O13,O15" />
+			<station id="O15" name="Yarraville Station (Yarraville)" line="O:15" link="O14,O16" />
+			<station id="O16" name="Spotswood Station (Spotswood)" line="O:16" link="O15,O17" />
+			<station id="O17" name="Newport Station (Newport)" line="O:17" link="O16,O18" />
+			<station id="O18" name="Seaholme Station (Seaholme)" line="O:18" link="O17,O19" />
+			<station id="O19" name="Altona Station (Altona)" line="O:19" link="O18,O20" />
+			<station id="O20" name="Westona Station (Altona)  ARR" line="O:20" link="O19,O21" />
+			<station id="O21" name="Westona Station (Altona)  DEP" line="O:21" link="O20,O22" />
+			<station id="O22" name="Laverton Station (Laverton)  ARR" line="O:22" link="O21,O23" />
+			<station id="O23" name="Laverton Station (Laverton)  DEP" line="O:23" link="O22,O24" />
+			<station id="O24" name="Aircraft Station (Laverton)" line="O:24" link="O23,O25" />
+			<station id="O25" name="Williams Landing Station (Williams Landing)" line="O:25" link="O24,O26" />
+			<station id="O26" name="Hoppers Crossing Station (Hoppers Crossing)" line="O:26" link="O25,O27" />
+			<station id="O27" name="Southern Cross Station (Melbourne City)" line="O:27" link="O26" />
+			<station id="P01" name="Southern Cross Station (Melbourne City)" line="P:1" link="P02" />
+			<station id="P02" name="Flagstaff Station (Melbourne City)" line="P:2" link="P01,P03" />
+			<station id="P03" name="Melbourne Central Station (Melbourne City)" line="P:3" link="P02,P04" />
+			<station id="P04" name="Parliament Station (Melbourne City)" line="P:4" link="P03,P05" />
+			<station id="P05" name="Flinders Street Station (Melbourne City)  ARR" line="P:5" link="P04,P06" />
+			<station id="P06" name="Flinders Street Station (Melbourne City)  DEP" line="P:6" link="P05,P07" />
+			<station id="P07" name="Southern Cross Station (Melbourne City)" line="P:7" link="P06,P08" />
+			<station id="P08" name="Parliament Station (Melbourne City)" line="P:8" link="P07,P09" />
+			<station id="P09" name="Melbourne Central Station (Melbourne City)" line="P:9" link="P08,P10" />
+			<station id="P10" name="Flagstaff Station (Melbourne City)" line="P:10" link="P09,P11" />
+			<station id="P11" name="North Melbourne Station (West Melbourne)" line="P:11" link="P10,P12" />
+			<station id="P12" name="South Kensington Station (Kensington)" line="P:12" link="P11,P13" />
+			<station id="P13" name="Footscray Station (Footscray)" line="P:13" link="P12,P14" />
+			<station id="P14" name="Seddon Station (Seddon)" line="P:14" link="P13,P15" />
+			<station id="P15" name="Yarraville Station (Yarraville)" line="P:15" link="P14,P16" />
+			<station id="P16" name="Spotswood Station (Spotswood)" line="P:16" link="P15,P17" />
+			<station id="P17" name="Newport Station (Newport)" line="P:17" link="P16,P18" />
+			<station id="P18" name="North Williamstown Station (Williamstown)" line="P:18" link="P17,P19" />
+			<station id="P19" name="Williamstown Beach Station (Williamstown)" line="P:19" link="P18,P20" />
+			<station id="P20" name="Southern Cross Station (Melbourne City)" line="P:20" link="P19" />
+		</stations>
+	</tube>
+</xml>
