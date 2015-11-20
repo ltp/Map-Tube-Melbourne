@@ -1,9 +1,9 @@
 package Map::Tube::Melbourne;
 
 use Moo;
-use namespoace::clean;
+use namespace::clean;
 
-has xml => ( is => 'ro', default => sub { 'melbourne.xml' } );
+has xml => ( is => 'ro', default => sub { 'melbourne-map.xml' } );
 with 'Map::Tube';
 
 package main;
