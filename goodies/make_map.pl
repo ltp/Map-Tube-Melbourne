@@ -6,6 +6,8 @@ use warnings;
 use WWW::PTV;
 
 my $p = WWW::PTV->new();
+my %LINE;
+my %STOP = {};
 
 get_metro_lines();
 

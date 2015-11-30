@@ -1,17 +1,14 @@
 package Map::Tube::Melbourne;
 
-use Moo;
-use namespace::clean;
+$Map::Tube::Melbourne::VERSION = '0.01';
 
-has xml => ( is => 'ro', default => sub { 'melbourne-map.xml' } );
+use File::Share ':all';
+use Moo;
+
+has xml => ( is => 'ro', default => sub { return dist_file( 'Map-Tube-Melbourne', 'melbourne-map.xml' ) } );
 with 'Map::Tube';
 
 package main;
-
-use strict;
-use warnings;
-
-our $VERSION = '0.01';
 
 1;
 
